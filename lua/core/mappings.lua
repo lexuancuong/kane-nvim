@@ -166,9 +166,9 @@ M.lspconfig = function()
       vim.diagnostic.setloclist()
    end)
 
-   map("n", "<leader>fm", function()
-      vim.lsp.buf.formatting()
-   end)
+   -- map("n", "<leader>fm", function()
+   --    vim.lsp.buf.formatting()
+   -- end)
 
    map("n", "<leader>wa", function()
       vim.lsp.buf.add_workspace_folder()
