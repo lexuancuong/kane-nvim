@@ -40,8 +40,8 @@ map("n", "<C-k>", "<C-w>k")
 map("n", "<C-j>", "<C-w>j")
 
 -- better indenting
-map("n", "<", "<gv")
-map("n", ">", ">gv")
+map("v", "<", "<gv")
+map("v", ">", ">gv")
 
 map("n", "<leader>x", function()
    require("core.utils").close_buffer()
